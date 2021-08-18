@@ -1,0 +1,75 @@
+body {
+    background-color: #424242;
+    font-family: "Raleway", Sans-serif;
+    font-size: 25px;
+    margin: 0;
+}
+
+#container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.square {
+    width: 30%;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    float: left;
+    transition: background .5s;
+    -webkit-transition: background .5s;
+    -moz-transition: background .5s;
+    -o-transition: background .5s;
+    border-radius: 20%;
+}
+
+h1 {
+    color: #fff;
+    background-color: #f5a64a;
+    font-size: 3.5em;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 10px 0;
+}
+
+#color-display {
+    display: block;
+    font-size: 2em;
+}
+
+#stripe {
+    background-color: #fff;
+    height: 70px;
+    color: #000;
+    text-align: center;
+}
+
+#message {
+    text-transform: uppercase;
+    color: #ea640d;
+    width: 20%;
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+button {
+    outline: none;
+    border: none;
+    color: #f5a64a;
+    font-family: "Raleway", Sans-serif;
+    font-size: 0.5em;
+    text-transform: uppercase;
+    height: 100%;
+    background-color: #fff;
+    cursor: pointer;
+    letter-spacing: 1px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+button:hover {
+    background-color: #f5a64a;
+    color: #fff;
+}
